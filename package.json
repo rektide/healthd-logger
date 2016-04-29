@@ -1,0 +1,19 @@
+{
+	"name": "healthd-logger",
+	"version": "1.0.0",
+	"description": "Healthd Logger for writing Amazon Elastic Beanstalk Enhanced Health Report terse logs.",
+	"main": "healthd-logger.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://archive.voodoowarez.com/healthd-logger"
+	},
+	"keywords": ["healthd", "elastic-beanstalk", "enhanced-health-report", "access-logs"],
+	"author": "rektide de la faye",
+	"license": "MIT",
+	"dependencies": {
+		"rotating-writable": "^1.0.0"
+	}
+}
